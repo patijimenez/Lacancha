@@ -1,0 +1,63 @@
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+div{
+	width:1250px;
+	height: 550px;
+	background-color: #83DC3B;
+
+}
+div div{
+	width:1200px;
+	height: 480px;
+	background-color: #83DC3B;
+	border:1px solid white;
+	right: 19px;
+	bottom:69px;
+
+}
+
+.inline{
+	display: inline-block;
+}
+
+.uno{
+	position: absolute;
+}
+
+.dos{
+	margin-top: 100px;
+	margin-left: 40px;
+	position:relative;	
+}
+.arco{
+	width: 120px;
+	height: 200px;
+	position: absolute;
+	bottom: 135px;
+}
+.porteriaizq{
+	position: absolute;
+	right: 1078px;
+
+}
+.porteriader{
+	right: -3px;
+   
+    
+}
+.circulo{
+	 width: 200px;
+     height: 200px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     position: absolute;
+     margin-right: 480px;
+     margin-bottom: 75px;
+
+     
+}
