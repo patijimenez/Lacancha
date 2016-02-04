@@ -1,14 +1,11 @@
-
 body{
 	padding: 0;
 	margin: 0;
 }
-
 div{
 	width:1250px;
 	height: 550px;
 	background-color: #83DC3B;
-
 }
 div div{
 	width:1200px;
@@ -17,17 +14,17 @@ div div{
 	border:1px solid white;
 	right: 19px;
 	bottom:69px;
-
 }
-
+/*Crear una clase absolute*/
+img{
+	position: absolute;
+}
 .inline{
 	display: inline-block;
 }
-
 .uno{
 	position: absolute;
 }
-
 .dos{
 	margin-top: 100px;
 	margin-left: 40px;
@@ -42,7 +39,6 @@ div div{
 .porteriaizq{
 	position: absolute;
 	right: 1078px;
-
 }
 .porteriader{
 	right: -3px;
@@ -57,7 +53,18 @@ div div{
      border-radius: 50%;
      position: absolute;
      margin-right: 480px;
-     margin-bottom: 75px;
-
-     
+     margin-bottom: 75px;     
+}
+#bolaizq{
+	z-index: 1;
+	margin-top: 160px; 	
+	margin-left: 110px;
+}
+#bolacentro{
+	left: 580px;
+	top: 100px;
+}
+#bolader{
+	left: 1055px;
+	top: 310px;
 }
